@@ -27,7 +27,7 @@ public class FullNameParser {
             String middleName = "";
 
             for (String name: names) {
-                
+
             }
 
             System.out.println(length);
@@ -42,8 +42,6 @@ public class FullNameParser {
                 lastName = names[1];
 
             }
-
-
 
             System.out.print("Last name  : " + lastName + "\n");
             System.out.print("Middle name: " + middleName+ "\n");
