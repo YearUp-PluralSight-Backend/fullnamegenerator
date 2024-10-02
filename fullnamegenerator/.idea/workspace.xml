@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b2b296-819e-4ada-8d2c-a5b32d79e768" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../FullNameParser/FullNameParser/src/main/java/com/pluralsight/FullNameParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FullNameParser/FullNameParser/src/main/java/com/pluralsight/FullNameParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/FullnameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/FullnameGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Yiming0576"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yiming0576&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/YearUp-PluralSight-Backend/fullnamegenerator.git",
+    "url": "https://github.com/YearUp-PluralSight-Backend/wb2-exercise.git",
     "accountId": "c749d637-857a-4ae1-8eb0-ae48e30e7982"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2mt2KUYBlnpaWNiUG0tIwKqGfRW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,6 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/yiminggao/Documents/year_up/backend_java_development/week_two/workbook-2/wb2-exercise/fullnamegenerator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,6 +101,7 @@
       <updated>1725321984670</updated>
       <workItem from="1725321985682" duration="347000" />
       <workItem from="1727881491362" duration="1310000" />
+      <workItem from="1727889480245" duration="1393000" />
     </task>
     <servers />
   </component>
