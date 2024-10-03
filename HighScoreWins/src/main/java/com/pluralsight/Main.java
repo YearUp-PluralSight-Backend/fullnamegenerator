@@ -20,4 +20,12 @@ public class Main {
     }
 
 
+    public static String askForString() {
+        Scanner scanner = new Scanner(System.in);
+        String gameScore = scanner.nextLine().trim();
+        scanner.close();
+        return gameScore;
+    }
+
+
 }

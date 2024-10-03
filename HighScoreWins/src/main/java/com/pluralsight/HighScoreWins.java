@@ -34,19 +34,12 @@ public class HighScoreWins {
      */
     public void printWinner() {
 
-        int firstSemicolon = userGameScore.indexOf(":"); // get the split symbol between users
-        int verticalBar = userGameScore.indexOf("|"); // get the split symbol between users and scores
+        String[] data = filteringData();
 
-//        get the user's name
-        String userOne = userGameScore.substring(0, firstSemicolon);
-        String userTwo = userGameScore.substring(firstSemicolon + 1, verticalBar);
-
-        String scores = userGameScore.substring(verticalBar, userGameScore.length()); // get the score part of String
-        int secondSemicolon = scores.indexOf(":"); // get the split symbol between scores
-
-//        get the scores
-        double scoreOne = Double.parseDouble(scores.substring(1, secondSemicolon));
-        double scoreTwo = Double.parseDouble(scores.substring(secondSemicolon + 1, scores.length()));
+        String userOne  = data[0];
+        String userTwo  = data[1];
+        Double scoreOne = Double.parseDouble(data[2]);
+        Double scoreTwo = Double.parseDouble(data[3]);
 
         if (scoreOne > scoreTwo) {
             System.out.println("Winner: " + userOne);
@@ -55,8 +48,28 @@ public class HighScoreWins {
         } else {
             System.out.println("Tied");
         }
+
         System.out.println(userOne  + " has " + scoreOne + " scores");
         System.out.println(userTwo + " has " + scoreTwo + " scores");
 
+
+    }
+
+    public String[] filteringData() {
+        int firstColon= userGameScore.indexOf(":"); // get the split symbol between users
+        int verticalBar = userGameScore.indexOf("|"); // get the split symbol between users and scores
+
+//        get the user's name
+        String userOne = userGameScore.substring(0, firstColon);
+        String userTwo = userGameScore.substring(firstColon + 1, verticalBar);
+
+        String scores = userGameScore.substring(verticalBar, userGameScore.length()); // get the score part of String
+        int secondColon = scores.indexOf(":"); // get the split symbol between scores
+
+//        get the scores
+        String scoreOne = scores.substring(1, secondColon);
+        String scoreTwo = scores.substring(secondColon + 1, scores.length());
+
+        return new String[] {userOne, userTwo, scoreOne, scoreTwo};
     }
 }
