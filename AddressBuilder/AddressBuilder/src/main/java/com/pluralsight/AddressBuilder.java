@@ -1,5 +1,6 @@
 package com.pluralsight;
 
+
 import java.util.Scanner;
 
 public class AddressBuilder {
@@ -21,7 +22,9 @@ public class AddressBuilder {
         this.city = city;
         this.state = state;
         this.zipCode = zipCode;
+
     }
+
 
 
     public void setBillingAddress() {
