@@ -1,5 +1,8 @@
 package com.pluralsight;
 
+/**
+ *  The main class provides
+ */
 public class Main {
     public static void main(String[] args) {
         rollDice(100);
@@ -49,4 +52,5 @@ public class Main {
         System.out.println("sixCounter: " + sixCounter);
         System.out.println("sevenCounter: " + sevenCounter);
     }
+
 }
